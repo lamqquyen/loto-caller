@@ -28,12 +28,16 @@ const Container = styled.div`
     width: 100%;
     height: 100%;
   }
-
-  @media (max-width: 425px) {
-    width: 120%;
-    height: 120%;
-  }
 `;
+
+const StyledWatermark = styled.div`
+  position: absolute;
+  bottom: 10px;
+  font-family: Change;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+`
 
 function Main() {
   return (
@@ -42,6 +46,10 @@ function Main() {
         <Settings />
         <NumberTable />
       </Container>
+
+      <StyledWatermark>
+        <b>BUILT BY JACKIE LIN</b><br />"CỜ BẠC LÀ PHẠM PHÁP NGHE CHƯA"
+      </StyledWatermark>
     </MainWrapper>
   );
 }

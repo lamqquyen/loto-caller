@@ -13,7 +13,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
 
   @media (max-width: 768px) {
     justify-content: start;
@@ -71,16 +70,6 @@ const CurrentNumberWrapper = styled.div`
     padding: 20px;
   }
 `;
-
-
-const StyledWatermark = styled.div`
-  position: absolute;
-  bottom: 10px;
-  font-family: Change;
-  font-size: 14px;
-  text-align: center;
-  width: 100%;
-`
 
 const defaultData = () => Array.from({length: 90}, (_, i) => i + 1)
 let data = defaultData()
@@ -140,9 +129,6 @@ const Settings = ({setting, number, autoCall, reset, call}) => {
       <Button onClick={() => {autoCall(!setting.isAutoCallEnabled)}}>{setting.isAutoCallEnabled ? 'Stop' : 'Auto Call'}</Button>
       <Button onClick={onReset}>Reset</Button>
     </ButtonWrapper>
-    <StyledWatermark>
-        <b>BUILT BY JACKIE LIN</b><br />"CỜ BẠC LÀ PHẠM PHÁP NGHE CHƯA"
-      </StyledWatermark>
   </Wrapper>
 };
 
