@@ -10,6 +10,11 @@ const MainWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+
+  @media (max-width: 768px) {
+    background-size: cover;
+  }
 `;
 
 const Container = styled.div`
@@ -17,6 +22,12 @@ const Container = styled.div`
   background-color: rgba(255, 255, 255, 0.7);
   height: 90%;
   display: flex;
+
+  @media (max-width: 768px) {
+    flex-flow: column-reverse;
+    width: 100%;
+    height: 100%;
+  }
 `;
 
 function Main() {

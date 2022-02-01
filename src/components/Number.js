@@ -22,6 +22,14 @@ const Column = styled.td`
     background: ${isRecentlyCalled ? '#ad0404' : 'red'};
     border-color: ${isRecentlyCalled ? '#ad0404' : 'red'};
   `}
+
+
+  @media (max-width: 768px) {
+    width: 24px;
+    height: 24px;
+    border: 2px solid red;
+    font-size: 14px;
+  }
 `;
 
 const Number = ({number, currentNumber, isCalled}) => {

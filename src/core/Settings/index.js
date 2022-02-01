@@ -14,6 +14,11 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   position: relative;
+
+  @media (max-width: 768px) {
+    justify-content: start;
+    flex: 1 0 auto;
+  }
 `;
 
 const ButtonWrapper = styled.div`

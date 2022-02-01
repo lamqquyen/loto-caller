@@ -15,6 +15,13 @@ const Wrapper = styled.div`
   background: white;
   color: red;
   font-family: PressStart2P;
+
+  @media (max-width: 768px) {
+    width: 60px;
+    height: 60px;
+    border: 4px solid red;
+    font-size: 30px;
+  }
 `;
 
 const CurrentNumber = ({currentNumber}) => {
