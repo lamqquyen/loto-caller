@@ -30,6 +30,13 @@ const Column = styled.td`
     border: 2px solid red;
     font-size: 14px;
   }
+
+  @media (max-width: 425px) {
+    width: 18px;
+    height: 18px;
+    border: 1px solid red;
+    font-size: 10px;
+  }
 `;
 
 const Number = ({number, currentNumber, isCalled}) => {

@@ -9,6 +9,10 @@ const Wrapper = styled.div`
   flex: 3;
   width: 100%;
   text-align: center;
+
+  @media (max-width: 768px) {
+    justify-content: start;
+  }
 `;
 
 const Table = styled.div`

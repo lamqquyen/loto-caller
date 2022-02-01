@@ -22,6 +22,13 @@ const Wrapper = styled.div`
     border: 4px solid red;
     font-size: 30px;
   }
+
+  @media (max-width: 425px) {
+    width: 36px;
+    height: 36px;
+    border: 2px solid red;
+    font-size: 20px;
+  }
 `;
 
 const CurrentNumber = ({currentNumber}) => {
