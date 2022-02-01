@@ -24,10 +24,10 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 425px) {
-    width: 36px;
-    height: 36px;
-    border: 2px solid red;
-    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    border: 4px solid red;
+    font-size: 24px;
   }
 `;
 
