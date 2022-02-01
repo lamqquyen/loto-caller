@@ -9,7 +9,6 @@ const Wrapper = styled.div`
   flex: 3;
   width: 100%;
   text-align: center;
-  position: relative;
 `;
 
 const Table = styled.div`
@@ -19,15 +18,6 @@ const Table = styled.div`
   padding: 8px 8px 0 8px;
   height: 100%;
 `;
-
-const StyledWatermark = styled.div`
-  position: absolute;
-  bottom: 10px;
-  font-family: Change;
-  font-size: 14px;
-  text-align: center;
-  width: 100%;
-`
 
 const Row = styled.tr``;
 
@@ -60,9 +50,6 @@ const NumberTable = ({ number }) => {
   return (
     <Wrapper>
       <Table>{renderNumber()}</Table>
-      <StyledWatermark>
-        <b>BUILT BY JACKIE LIN</b><br />"CỜ BẠC LÀ PHẠM PHÁP NGHE CHƯA"
-      </StyledWatermark>
     </Wrapper>
   );
 };
