@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import styled from "styled-components";
 import Number from "../../components/Number";
 import { connect } from "react-redux";
