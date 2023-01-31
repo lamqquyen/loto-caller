@@ -92,7 +92,7 @@ const Settings = ({setting, number, autoCall, reset, call}) => {
 
   const callNumber = () => {
     const currentNumber = getNumber()
-    const snd = new Audio(`/voices/${currentNumber}.mp3`)
+    const snd = new Audio(`voices/${currentNumber}.mp3`)
     snd.crossOrigin = 'anonymous';
     snd.play()
     call(currentNumber)
