@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/loto-caller/static/css/main.e6c13ad2.css",
-    "main.js": "/loto-caller/static/js/main.50b4ed6e.js",
+    "main.js": "/loto-caller/static/js/main.dadd41a5.js",
     "static/js/787.1a309898.chunk.js": "/loto-caller/static/js/787.1a309898.chunk.js",
     "index.html": "/loto-caller/index.html",
     "main.e6c13ad2.css.map": "/loto-caller/static/css/main.e6c13ad2.css.map",
-    "main.50b4ed6e.js.map": "/loto-caller/static/js/main.50b4ed6e.js.map",
+    "main.dadd41a5.js.map": "/loto-caller/static/js/main.dadd41a5.js.map",
     "787.1a309898.chunk.js.map": "/loto-caller/static/js/787.1a309898.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.50b4ed6e.js"
+    "static/js/main.dadd41a5.js"
   ]
 }
